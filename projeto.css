@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: greenyellow;
+    background-color: rgb(213, 255, 151);
     font-family: Abel;
 }
 
@@ -17,7 +17,7 @@ body{
     position: absolute;
     display:flex;
     flex-direction: column;
-    background-color: #68f54c;
+    background-color: #a9ff98;
     height: auto;
     border-radius: 10px;
     justify-content: space-around;
@@ -63,14 +63,14 @@ body{
 
 .cabecalho{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#46ff8d;
+    background-color:#f1ffb5;
     position: absolute;
     box-sizing: border-box;
     display: flex;
     left: 24%;
     height: auto;
     width: auto;
-    border-bottom: 4px solid rgb(172, 255, 63);
+    border-bottom: 4px solid rgb(216, 255, 165);
     border-radius: 10px;
 }
 
@@ -102,14 +102,14 @@ body{
     padding: 6px;
     margin: 0;
     font-family:'Secular One', sans-serif;
-    color: #f3bb4c;
+    color: #ffd480;
     text-shadow: 2px 2px black;
 }
 
 #sobrenome{
     font-size: 30px;
     font-family: 'Secular One', sans-serif;
-    color: #FDD689;
+    color: #ffdf9f;
     padding: 6px;
     margin: 0;
     text-shadow: 2px 2px black;
