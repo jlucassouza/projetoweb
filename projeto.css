@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    font-family: Abel;
+}
+
+.principal{
+    display: flex;
+}
+
+.menu_lateral{
+    width: 23%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    background-color: #68f54c;
+    height: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.menu_lateral p{
+    text-align: justify;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.menu_lateral h3{
+    text-shadow: 1px 1px white;
+}
+
+#foto3x4{
+    padding: 20px;
+    border-radius: 40px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#foto3x4:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.mini_img{
+    width: 32px;
+    height: 32px;
+}
+
+.texto_img{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.texto_img p{
+    margin-left: 10px;
+}
+
+
+.cabecalho{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#46ff8d;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    left: 24%;
+    height: auto;
+    width: auto;
+    border-bottom: 4px solid rgb(172, 255, 63);
+    border-radius: 10px;
+}
+
+.links_sociais{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
+.links_sociais li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.links_sociais img{
+    height: 37px;
+    width: 37px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.links_sociais img:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+#nome{
+    font-size: 40px;
+    padding: 6px;
+    margin: 0;
+    font-family:'Secular One', sans-serif;
+    color: #f3bb4c;
+    text-shadow: 2px 2px black;
+}
+
+#sobrenome{
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    color: #FDD689;
+    padding: 6px;
+    margin: 0;
+    text-shadow: 2px 2px black;
+}
+
+.frase_da_header{
+    font-family: Neucha, cursive;
+    margin: 8px;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+
+.nome_info h2{
+    padding: 6px;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.pag_main{
+    left: 24%;
+    margin: 3px;
+    display: flex;
+    position: absolute;
+    top: 250px;
+}
+
+.skills{
+    background-color: #E2F0CB;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.skills h2{
+    margin: 4px;
+}
+
+.skills li{
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.education{
+    background-color: #B5EAD7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.education h2{
+    margin: 4px;
+}
+
+.education li{
+    font-weight: bolder;
+    margin: 0px;
+    padding: 4px;
+}
+
+.complementar{
+    background-color:#C7CEEA;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.complementar h2{
+    margin: 4px;
+}
+
+.complementar li{
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.demakiaaa{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.demakiaaa img{
+    display: flex;
+    padding: 8px;
+    height: auto; 
+    width: auto; 
+    max-width: 30px; 
+    max-height: 30px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s
+}
+
+.demakiaaa img:hover{
+    transform: rotate(360deg) scale(1.5)
+}
